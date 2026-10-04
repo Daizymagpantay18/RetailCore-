@@ -408,4 +408,4 @@ $uspSection = $conn->query("SELECT * FROM website_usp_section ORDER BY section_i
 
 
 <?php
-include("footer.php");
+include("footer.php"); ?>
