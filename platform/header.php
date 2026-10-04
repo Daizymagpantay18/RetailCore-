@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/SariSmarts/bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/SariSmarts/fontawesome-free-7.0.1-web/css/all.min.css">
     <link rel="stylesheet" href="/SariSmarts/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="SariSmarts/platform/style.css">
+    <link rel="stylesheet" href="/SariSmarts/platform/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/SariSmarts/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
