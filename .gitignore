@@ -1,0 +1,60 @@
+# =====================
+# SariSmarts .gitignore
+# =====================
+
+# Environment / Config files with credentials
+config.php
+platform/config.php
+db_config.php
+*.env
+.env
+
+# Uploaded user files (personal data, biometrics, receipts, etc.)
+uploads/faces/
+uploads/employee_biometrics/
+uploads/employee_documents/
+uploads/contracts/
+uploads/resume/
+uploads/attendance/
+uploads/receipts/
+uploads/ap_receipts/
+uploads/products/
+hr/uploads/
+
+# Keep uploads folder structure but not files
+uploads/**
+!uploads/.gitkeep
+hr/uploads/**
+!hr/uploads/.gitkeep
+
+# PHP error logs
+*.log
+error_log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large front-end library folders (served via CDN in production)
+bootstrap-5.3.8-dist/
+bootstrap-icons-1.13.1/
+fontawesome-free-7.0.1-web/
+platform/bootstrap-5.3.8-dist/
+platform/bootstrap-icons-1.13.1/
+platform/fontawesome-free-7.0.1-web/
+
+# Composer vendor (run `composer install` on the server instead)
+vendor/
+platform/vendor/
+
+# Git Upload backups folder
+Git Uploads/
+RetailCore-/
+
+# XAMPP specific
