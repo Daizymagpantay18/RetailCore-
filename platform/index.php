@@ -44,7 +44,7 @@ $modules = $conn->query("
 
 $uspSection = $conn->query("SELECT * FROM website_usp_section ORDER BY section_id LIMIT 1")->fetch_assoc();
 
-?>
+
 
 <!-- =========================================================
      HERO
